@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: 
+License Type: Evaluation
+-->
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="Product" table="product" lazy="false" discriminator-value="Product">
+		<id name="ID" column="ID" type="integer" unsaved-value="0">
+			<generator class="identity">
+			</generator>
+		</id>
+		<discriminator column="Discriminator" type="string"/>
+		<property name="price" column="Price" type="integer" length="10" not-null="false" lazy="false"/>
+		<set name="ORM_OrderEntrys" lazy="false" cascade="save-update,lock" inverse="true">
+			<key column="ProductID" not-null="true"/>
+			<one-to-many class="OrderEntry"/>
+		</set>
+		<set name="ORM_CartEntrys" lazy="false" cascade="save-update,lock" inverse="true">
+			<key column="ProductID" not-null="true"/>
+			<one-to-many class="CartEntry"/>
+		</set>
+		<subclass name="Book" discriminator-value="book" lazy="false">
+			<many-to-one name="authors" cascade="lock" column="AuthorsID" class="Authors" not-null="false" lazy="proxy" access="field">
+			</many-to-one>
+			<many-to-one name="bookcategory" cascade="lock" column="BookCategoryID" class="BookCategory" not-null="false" lazy="proxy" access="field">
+			</many-to-one>
+			<property name="publisherName" column="PublisherName" type="string" length="255" not-null="false" lazy="false"/>
+			<property name="pages" column="Pages" type="integer" length="10" not-null="false" lazy="false"/>
+			<property name="firstRelease" column="FirstRelease" type="date" not-null="false" lazy="false"/>
+		</subclass>
+		<subclass name="Cloth" discriminator-value="cloth" lazy="false">
+			<many-to-one name="category" cascade="lock" column="ClothCategoryID" class="ClothCategory" not-null="false" lazy="proxy" access="field">
+			</many-to-one>
+			<property name="size" column="`Size`" type="integer" length="10" not-null="false" lazy="false"/>
+			<property name="color" column="Color" type="string" length="255" not-null="false" lazy="false"/>
+			<one-to-one name="brand" class="ClothBrand" cascade="save-update,lock" property-ref="cloth" lazy="proxy" access="field"/>
+		</subclass>
+		<subclass name="MobilePhone" discriminator-value="mobilephone" lazy="false">
+			<property name="hardwareSpecs" column="HardwareSpecs" type="string" length="255" not-null="false" lazy="false"/>
+			<property name="ram" column="Ram" type="string" length="255" not-null="false" lazy="false"/>
+			<property name="cpu" column="Cpu" type="string" length="255" not-null="false" lazy="false"/>
+			<property name="memory" column="Memory" type="string" length="255" not-null="false" lazy="false"/>
+			<one-to-one name="brand" class="MobilePhoneBrand" cascade="save-update,lock" property-ref="phone" lazy="proxy" access="field"/>
+		</subclass>
+	</class>
+</hibernate-mapping>

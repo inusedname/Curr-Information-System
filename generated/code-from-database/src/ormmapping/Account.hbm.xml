@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: 
+License Type: Evaluation
+-->
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="Account" table="account" lazy="false" discriminator-value="Account">
+		<id name="ID" column="ID" type="integer" unsaved-value="0">
+			<generator class="identity">
+			</generator>
+		</id>
+		<discriminator column="Discriminator" type="string"/>
+		<property name="email" column="Email" type="string" length="255" not-null="false" lazy="false"/>
+		<property name="username" column="Username" type="string" length="255" not-null="false" lazy="false"/>
+		<property name="password" column="Password" type="string" length="255" not-null="false" lazy="false"/>
+		<property name="create" column="`Create`" type="date" not-null="false" lazy="false"/>
+		<subclass name="Customer" discriminator-value="customer" lazy="false">
+			<property name="name" column="Name" type="string" length="255" not-null="false" lazy="false"/>
+			<property name="phone" column="Phone" type="string" length="255" not-null="false" lazy="false"/>
+			<one-to-one name="cart" class="Cart" cascade="save-update,lock" property-ref="customer" lazy="proxy" access="field"/>
+			<set name="ORM_Order" lazy="false" cascade="save-update,lock" inverse="true">
+				<key column="AccountID" not-null="true"/>
+				<one-to-many class="Orders"/>
+			</set>
+			<set name="ORM_Address" lazy="false" cascade="save-update,lock" inverse="true">
+				<key column="AccountID" not-null="true"/>
+				<one-to-many class="Address"/>
+			</set>
+		</subclass>
+		<subclass name="Admin" discriminator-value="admin" lazy="false">
+			<property name="lastLogin" column="LastLogin" type="date" not-null="false" lazy="false"/>
+		</subclass>
+	</class>
+</hibernate-mapping>

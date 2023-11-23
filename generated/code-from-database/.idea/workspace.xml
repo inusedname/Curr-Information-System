@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="code-from-database:Web exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a82ce86-82d3-4561-be5a-698dc918cb2f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../httm/intSysDev_03_03_BT8 Hoàng Đức Thắng.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../httm/w8/neural_trasfer_style.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.ecommerce-eva.vpp.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ecommerce/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ecommerce/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ecommerce/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ecommerce/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ecommerce/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ecommerce/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ecommerce/src/main/java/com/example/ecommerce/EcommerceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ecommerce/src/main/java/com/example/ecommerce/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ecommerce/src/main/java/com/example/ecommerce/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ecommerce/src/main/java/com/example/ecommerce/repo/AccountEntityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ecommerce/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ecommerce/src/test/java/com/example/ecommerce/EcommerceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../archives/368231630_1670104826749873_4322247480513261145_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../archives/4. GiaotrinhPT&amp;TK-2017.03.V3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../archives/A&amp;D_01_09_bt1.1_1.8_Nguyễn Viết Quang.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../archives/A&amp;D_01_09_bt1.9_Nguyễn_Viết_Quang.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../archives/A&amp;D_01_09_bt3_Nguyễn_Viết_Quang.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../archives/A&amp;D_01_09_project_v1_Nguyễn Viết Quang.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../archives/CNPM.vpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../archives/TỪ PHÂN TÍCH ĐẾN THIẾT KẾ.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../archives/baitap1_requirement1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../archives/baitap3_thiet ke_bookstore.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../archives/baitap4_thietke_code_springJava.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_000f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_001d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_002d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_003d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_004d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_005d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_006d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_007d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_008d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_009d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_010d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_011d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_012d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_013d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_014d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_015d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_016d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_017d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_018d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_019d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_020d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_021d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/Design/DAO/account/AccountDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/Design/DAO/account/AccountDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/Design/DAO/account/AddressDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/Design/DAO/account/AddressDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/Design/DAO/cart/CartDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/Design/DAO/cart/CartDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/Design/DAO/order/OrdersDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/Design/DAO/order/OrdersDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/Design/DAO/payment/PaymentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/Design/DAO/payment/PaymentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/Design/DAO/product/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/Design/DAO/product/ProductDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/Design/DAO/shipment/ShipmentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/Design/DAO/shipment/ShipmentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/OrderPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-j-8.0.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/orm.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Account.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AccountDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AccountList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AccountProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Address.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddressDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddressList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddressProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddressSetCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Authors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Authors.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AuthorsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AuthorsList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AuthorsProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Book.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookCategoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookCategoryList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookCategoryProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookSetCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CartDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CartEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CartEntry.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CartEntryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CartEntryList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CartEntryProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CartEntrySetCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CartList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CartProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CartSetCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cloth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cloth.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClothBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClothBrand.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClothBrandDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClothBrandList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClothBrandProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClothCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClothCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClothCategoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClothCategoryList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClothCategoryProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClothDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClothList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClothProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClothSetCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreateEcommerceevaData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreateEcommerceevaDatabaseSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Customer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CustomerList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CustomerProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeleteEcommerceevaData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DropEcommerceevaDatabaseSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EcommerceevaFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EcommerceevaPersistentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListEcommerceevaData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MobilePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MobilePhone.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MobilePhoneBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MobilePhoneBrand.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MobilePhoneBrandDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MobilePhoneBrandList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MobilePhoneBrandProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MobilePhoneDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MobilePhoneList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MobilePhoneProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ORMConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrderAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrderAddress.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrderAddressDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrderAddressList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrderAddressProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrderEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrderEntry.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrderEntryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrderEntryList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrderEntryProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrderEntrySetCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Orders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrdersDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrdersList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrdersProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrdersSetCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Payment.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentByCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentByCard.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentByCardDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentByCardList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentByCardProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentCOD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentCOD.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentCODDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentCODList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentCODProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Product.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RetrieveAndUpdateEcommerceevaData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shipment.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShipmentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShipmentList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShipmentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ormmapping/Account.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ormmapping/Address.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ormmapping/Authors.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ormmapping/BookCategory.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ormmapping/Cart.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ormmapping/CartEntry.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ormmapping/ClothBrand.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ormmapping/ClothCategory.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ormmapping/Ecommerceeva.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ormmapping/Ecommerceeva.erd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ormmapping/MobilePhoneBrand.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ormmapping/OrderAddress.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ormmapping/OrderEntry.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ormmapping/Orders.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ormmapping/Payment.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ormmapping/Product.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ormmapping/Shipment.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ormmapping/database.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../xla/btxla_GUISV.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ltm/th1/src/udp/UDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ltm/th1/src/udp/UDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ltm/th1/src/udp/UDP2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ltm/th1/src/udp/UDP2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../368231630_1670104826749873_4322247480513261145_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. GiaotrinhPT&amp;TK-2017.03.V3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A&amp;D_01_09_bt1.1_1.8_Nguyễn Viết Quang.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A&amp;D_01_09_bt1.9_Nguyễn_Viết_Quang.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A&amp;D_01_09_bt3_Nguyễn_Viết_Quang.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A&amp;D_01_09_bt3_Nguyễn_Viết_Quang.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CNPM.vpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap1_requirement1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap3_thiet ke_bookstore.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap4_thietke_code_springJava.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buoi4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buoi4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/main/java/com/example/demo/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ecommerce-eva.vpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_022d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_023d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_024d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_025d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_026d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_027d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_028d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_029d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_030d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_031f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_032d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_033d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_034d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_035d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_036d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_037d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_038d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_039d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_040d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_041d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_042d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_043d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_044d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_045d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_046d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_047d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_048d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_049d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_050d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ecommerce-eva.vpp.bak_051d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/.idea/ant.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/.idea/libraries/hibernate_core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/.idea/libraries/hibernate_orm_core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/lib/hibernate-core-6.3.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/out/production/proj/ormmapping/Account.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/out/production/proj/ormmapping/Address.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/out/production/proj/ormmapping/Author.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/out/production/proj/ormmapping/Book.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/out/production/proj/ormmapping/Bookstoresystem.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/out/production/proj/ormmapping/Bookstoresystem.erd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/out/production/proj/ormmapping/Cart.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/out/production/proj/ormmapping/Category.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/out/production/proj/ormmapping/Customer.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/out/production/proj/ormmapping/Order.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/out/production/proj/ormmapping/Payment.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/out/production/proj/ormmapping/Publisher.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/out/production/proj/ormmapping/Shipment.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/out/production/proj/ormmapping/database.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/proj.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/AccountCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/AccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/AccountDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/AccountDetachedCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/AddressCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/AddressDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/AddressDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/AddressDetachedCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/Author.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/AuthorCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/AuthorDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/AuthorDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/AuthorDetachedCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/BookCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/BookDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/BookDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/BookDetachedCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/BookstoresystemPersistentManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/COD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CODCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CODDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CODDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CODDetachedCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CardCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CardDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CardDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CardDetachedCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CartCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CartDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CartDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CartDetachedCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/Cash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CashCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CashDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CashDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CashDetachedCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CategoryCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CategoryDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CategoryDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CategoryDetachedCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CreateBookstoresystemData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CreateBookstoresystemDatabaseSchema.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CustomerCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CustomerDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/CustomerDetachedCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/DAOFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/DAOFactoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/DeleteBookstoresystemData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/DropBookstoresystemDatabaseSchema.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ListBookstoresystemData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ORMConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/OrderCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/OrderDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/OrderDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/OrderDetachedCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/PaymentCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/PaymentDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/PaymentDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/PaymentDetachedCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/Publisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/PublisherCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/PublisherDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/PublisherDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/PublisherDetachedCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/RetrieveAndUpdateBookstoresystemData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/Shipment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ShipmentCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ShipmentDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ShipmentDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ShipmentDetachedCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ormmapping/Account.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ormmapping/Address.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ormmapping/Author.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ormmapping/Book.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ormmapping/Bookstoresystem.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ormmapping/Bookstoresystem.erd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ormmapping/Cart.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ormmapping/Category.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ormmapping/Customer.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ormmapping/Order.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ormmapping/Payment.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ormmapping/Publisher.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ormmapping/Shipment.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proj/src/ormmapping/database.cfg.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2YXGRKg1V1s4Y85Agw5OtFi5r14" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Code/PTIT/pttk/output/code-from-database/WEB-INF/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15722656",
+    "project.structure.side.proportion": "0.14512093",
+    "ruby.rails.projectView.checked": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\PTIT\pttk\output\code-from-database\WEB-INF\lib" />
+      <recent name="D:\Code\PTIT\pttk\output\code-from-database\WEB-INF" />
+      <recent name="D:\Code\PTIT\pttk\output\code-from-database\out\artifacts\code_from_database_Web_exploded\WEB-INF\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\PTIT\pttk\output\code-from-database\WEB-INF\lib" />
+    </key>
+  </component>
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.83" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.83" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="code-from-database:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/code_from_database_Web_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="e4f7fc5a-4416-40e6-9995-7a71e8d803af" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51380" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="code-from-database:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a82ce86-82d3-4561-be5a-698dc918cb2f" name="Changes" comment="" />
+      <created>1700664503208</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700664503208</updated>
+      <workItem from="1700664504165" duration="7235000" />
+      <workItem from="1700671753719" duration="1143000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

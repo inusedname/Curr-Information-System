@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: 
+License Type: Evaluation
+-->
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="Orders" table="orders" lazy="false">
+		<id name="ID2" column="ID2" type="integer" unsaved-value="0">
+			<generator class="identity">
+			</generator>
+		</id>
+		<many-to-one name="customer" cascade="lock" column="AccountID" class="Customer" not-null="true" lazy="proxy" access="field">
+		</many-to-one>
+		<property name="ID" column="ID" type="integer" length="10" not-null="true" lazy="false"/>
+		<property name="shipFee" column="ShipFee" type="integer" length="10" not-null="false" lazy="false"/>
+		<property name="paymentDetail" column="PaymentDetail" type="string" length="255" not-null="false" lazy="false"/>
+		<property name="cartFee" column="CartFee" type="integer" length="10" not-null="true" lazy="false"/>
+		<property name="status" column="Status" type="string" length="255" not-null="false" lazy="false"/>
+		<one-to-one name="shipment" class="Shipment" cascade="save-update,lock,delete" property-ref="order" lazy="proxy" access="field"/>
+		<set name="ORM_OrderEntrys" lazy="false" cascade="save-update,lock" inverse="true">
+			<key column="OrdersID2" not-null="true"/>
+			<one-to-many class="OrderEntry"/>
+		</set>
+		<one-to-one name="payment" class="Payment" cascade="save-update,lock,delete" property-ref="orders" lazy="proxy" access="field"/>
+	</class>
+</hibernate-mapping>
