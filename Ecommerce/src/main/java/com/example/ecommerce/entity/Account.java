@@ -6,6 +6,8 @@ import java.sql.Date;
 import java.util.Objects;
 
 @Entity
+@DiscriminatorColumn(name = "Discriminator", discriminatorType = DiscriminatorType.STRING)
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public class Account {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
@@ -21,19 +23,10 @@ public class Account {
     @Column(name = "Password")
     private String password;
     @Basic
-    @Column(name = "Create")
-    private Date create;
+    @Column(name = "CreatedDate")
+    private Date createdDate;
     @Basic
-    @Column(name = "Name")
-    private String name;
-    @Basic
-    @Column(name = "Phone")
-    private String phone;
-    @Basic
-    @Column(name = "LastLogin")
-    private Date lastLogin;
-    @Basic
-    @Column(name = "Discriminator")
+    @Column(name = "Discriminator", insertable = false, updatable = false)
     private String discriminator;
 
     public int getId() {
@@ -68,36 +61,12 @@ public class Account {
         this.password = password;
     }
 
-    public Date getCreate() {
-        return create;
+    public Date getCreatedDate() {
+        return createdDate;
     }
 
-    public void setCreate(Date create) {
-        this.create = create;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-    public Date getLastLogin() {
-        return lastLogin;
-    }
-
-    public void setLastLogin(Date lastLogin) {
-        this.lastLogin = lastLogin;
+    public void setCreatedDate(Date createdDate) {
+        this.createdDate = createdDate;
     }
 
     public String getDiscriminator() {
@@ -113,11 +82,11 @@ public class Account {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Account account = (Account) o;
-        return id == account.id && Objects.equals(email, account.email) && Objects.equals(username, account.username) && Objects.equals(password, account.password) && Objects.equals(create, account.create) && Objects.equals(name, account.name) && Objects.equals(phone, account.phone) && Objects.equals(lastLogin, account.lastLogin) && Objects.equals(discriminator, account.discriminator);
+        return id == account.id && Objects.equals(email, account.email) && Objects.equals(username, account.username) && Objects.equals(password, account.password) && Objects.equals(createdDate, account.createdDate) && Objects.equals(discriminator, account.discriminator);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, email, username, password, create, name, phone, lastLogin, discriminator);
+        return Objects.hash(id, email, username, password, createdDate, discriminator);
     }
 }
