@@ -2,11 +2,13 @@ package com.example.ecommerce.entity;
 
 import jakarta.persistence.Basic;
 import jakarta.persistence.Column;
+import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
 
 import java.util.Objects;
 
 @Entity
+@DiscriminatorValue("customer")
 public class Customer extends Account {
     @Basic
     @Column(name = "Name")

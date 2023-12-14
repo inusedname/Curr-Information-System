@@ -3,6 +3,7 @@ package com.example.ecommerce.entity;
 import jakarta.persistence.*;
 
 import java.sql.Date;
+import java.time.LocalDate;
 import java.util.Objects;
 
 @Entity
@@ -28,6 +29,16 @@ public class Account {
     @Basic
     @Column(name = "Discriminator", insertable = false, updatable = false)
     private String discriminator;
+
+    public Account() {
+    }
+
+    public Account(String email, String username, String password) {
+        this.email = email;
+        this.username = username;
+        this.password = password;
+        this.createdDate = Date.valueOf(LocalDate.now());
+    }
 
     public int getId() {
         return id;
